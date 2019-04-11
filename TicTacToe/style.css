@@ -1,0 +1,97 @@
+h1
+{
+	text-align:center;
+	transform:capitalize;
+	font-family:sans-serif;
+	padding-bottom:4px;
+	border-bottom:3px groove pink;
+	width:300px;
+	margin:auto;
+}
+.game
+{
+	margin-left:37%;
+	margin-top:5%;
+}
+.row
+{
+margin:auto;	
+}
+.box
+{	
+	display:inline-block;
+   background:skyblue;
+	width:100px;
+	height:100px;
+	margin:auto;
+	transition:0.5s;
+	position:relative;
+}
+.box:hover
+{
+	background:orange;
+	transform:scale(1.1);
+	cursor:pointer;
+}
+
+span
+{
+	text-align:center;
+	position:relative;
+	font-size:xx-large;
+	margin-top:40px;
+	
+}
+.box1
+{
+	border-right: 3px solid white;
+	border-bottom: 3px solid white;;
+}
+.box2
+{
+	border-right: 3px solid white;
+	border-bottom:3px solid white;
+	border-left:3px solid white;
+}
+.box3
+{
+	border-bottom:3px solid white;
+	border-left:3px solid white;
+}
+.box4
+{
+	border-top:3px solid white;
+	border-right: 3px solid white;
+	border-bottom:3px solid white;
+}
+.box5
+{
+	border-top:3px solid white;
+	border-right: 3px solid white;
+	border-bottom:3px solid white;
+	border-left:3px solid white;
+}
+.box6
+{
+	border-top:3px solid white;
+	border-right: 0px solid white;
+	border-bottom:3px solid white;
+	border-left:3px solid white;
+}
+.box7
+{
+	border-top:3px solid white ;
+	border-right:3px solid white;
+	border-left:0px solid white;
+}
+.box8
+{
+	border-top:3px solid white ;
+	border-right:3px solid white;
+	border-left:3px solid white;
+}
+.box9
+{
+	border-top:3px solid white;
+	border-left:3px solid white;
+}
